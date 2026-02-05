@@ -1,0 +1,9 @@
+{
+  "example_post_1": {
+    "price": "$1200",
+    "status": "available"
+  },
+  "example_post_2": {
+    "status": "sold"
+  }
+}
