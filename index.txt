@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Christopher Picardi - Art</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fefefe; color: #222; }
+    header { background: #fff; padding: 20px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    header h1 { margin: 0; font-size: 2em; }
+    nav { margin-top: 10px; }
+    nav a { margin: 0 10px; text-decoration: none; color: #333; font-weight: bold; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 20px; }
+    .gallery { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .painting { width: 200px; height: 200px; background: #ddd; display: flex; align-items: center; justify-content: center; color: #555; font-weight: bold; }
+    footer { text-align: center; padding: 20px; background: #fafafa; margin-top: 40px; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>John Christopher Picardi</h1>
+  <nav>
+    <a href="#gallery">Gallery</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery" id="gallery-container">
+    <div class="painting">Painting 1</div>
+    <div class="painting">Painting 2</div>
+    <div class="painting">Painting 3</div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <p>
+    John is a multidisciplinary artist based in Massachusetts whose work spans painting, writing, culinary arts, and higher education. His paintings are recognized for their expressive use of color and light and their ability to capture the emotional presence of everyday subjects.
+  </p>
+  <p>
+    Artist Statement: I paint because certain things in the world spark something in me — a flower, a vase, a table, the shape of an interior, or the quick glimpse of someone walking by. My goal is to share that sense of wonder through color, light, and the joy of being in the world.
+  </p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:johnchristopherpicardi@gmail.com">johnchristopherpicardi@gmail.com</a></p>
+  <p>Instagram: <a href="https://instagram.com/johnc.picardi" target="_blank">@johnc.picardi</a></p>
+</section>
+
+<footer>
+  &copy; 2026 John Christopher Picardi
+</footer>
+
+<script src="insta-feed.js"></script>
+</body>
+</html>
